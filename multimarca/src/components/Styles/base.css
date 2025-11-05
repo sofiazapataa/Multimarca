@@ -1,0 +1,22 @@
+/* Tipografía */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+:root{
+  --bg: #f6fbff;        /* fondo muy claro celeste */
+  --text: #1f2d3d;      /* texto principal */
+  --muted: #65758b;     /* texto suave */
+  --brand: #3aa0e0;     /* celeste principal */
+  --brand-700:#0e6ba8;  /* acento */
+  --card:#eaf5ff;       /* bloques/footers */
+  --border:#dbe8f5;
+}
+
+*{ box-sizing:border-box; }
+html, body, #root{ height:100%; }
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:'Poppins', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+a{ color:inherit; text-decoration:none; }

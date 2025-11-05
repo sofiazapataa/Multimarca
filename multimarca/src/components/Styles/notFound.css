@@ -1,0 +1,14 @@
+.notfound{ min-height:calc(100dvh - 180px); display:grid; place-items:center; padding:24px 16px; }
+.notfound__card{
+  background:#fff; border:1px solid var(--border); border-radius:16px;
+  padding:26px 22px; max-width:560px; text-align:center;
+  box-shadow:0 6px 18px rgba(20,40,80,.06);
+}
+.notfound__title{ font-size:2rem; margin:6px 0 8px; color:var(--brand-700); }
+.notfound__p{ color:var(--muted); margin:0 0 18px; }
+.btn{
+  display:inline-block; padding:10px 16px; border-radius:12px; font-weight:600;
+  background:var(--brand); color:#fff;
+}
+.btn:hover{ background:var(--brand-700); }
+.btn--alt{ background:var(--brand-700); }

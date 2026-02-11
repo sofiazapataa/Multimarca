@@ -8,7 +8,7 @@ import ProductDetail from "./components/Pages/ProductDetail.jsx";
 import Carrito from "./components/Pages/Carrito.jsx";
 import Perfil from "./components/Pages/Perfil.jsx";
 import NotFound from "./components/Pages/NotFound.jsx";
-import "./components/Styles/base.css"; 
+import "./components/styles/base.css"; 
 
 export default function App(){
   return (

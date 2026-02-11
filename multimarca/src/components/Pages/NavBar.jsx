@@ -1,6 +1,6 @@
 import { NavLink, Link } from "react-router-dom";
 import { useCart } from "./CartContext.jsx";
-import "../Styles/NavBar.css";
+import "../styles/NavBar.css";
 
 export default function NavBar() {
   const { totals } = useCart();

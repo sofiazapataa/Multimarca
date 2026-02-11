@@ -1,4 +1,4 @@
-import "../Styles/home.css";
+import "../styles/home.css";
 import { Link } from "react-router-dom";
 import Hero from "./Hero.jsx";
 import SearchBar from "./SearchBar.jsx";

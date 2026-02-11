@@ -1,5 +1,5 @@
 import { useCart, ars } from "./CartContext.jsx";
-import "../Styles/cart.css";
+import "../styles/Cart.css";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 

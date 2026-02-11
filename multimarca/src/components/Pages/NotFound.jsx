@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "../Styles/notfound.css";
 
+
 export default function NotFound(){
   return (
     <section className="notfound">

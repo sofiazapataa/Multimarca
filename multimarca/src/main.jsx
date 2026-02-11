@@ -1,16 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom";
-import { CartProvider } from "./components/Pages/CartContext.jsx";
-import App from "./App.jsx";
-
+import AppRouter from "./routes/sappRouter";
+import { AuthProvider } from "./context/authContext";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <>
-    <BrowserRouter>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </BrowserRouter>
+    <AuthProvider>
+      <AppRouter />
+    </AuthProvider>
   </>
 );
 
